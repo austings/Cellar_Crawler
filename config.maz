@@ -1,0 +1,32 @@
+4
+spikes weaken 30 shield
+portal warp 0 stabilizer
+magnets vanish rubber
+rocks weaken 50 armor
+7 6
+none
+armor shield bones
+none
+stabilizer cobwebs pebbles
+none
+rubber boots shield Sword
+spikes
+silverware
+rocks
+gunpowder
+magnets
+beakers stabilizer
+portal
+none
+9
+Hall 1 2
+Tunnel 1 3
+Passage 2 3
+Crawlway 3 5
+Trapdoor 5 6
+Ladder 3 4
+Doorway 2 4
+Entrance 0 1
+Stairwell 1 4
+1
+Snakelord 6

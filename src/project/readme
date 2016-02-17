@@ -1,0 +1,109 @@
+The Cellar Project README
+===============================
+(please use the RETURN key to make multiple lines; don't assume autowrap.)
+
+0. Author Information
+---------------------
+
+CS Username: 	ags1098,trs5953		Name:  		Austin Sierra, Tyler Shank
+
+1. Problem Analysis
+---------
+
+Summarize the analysis work you did. 
+What new information did it reveal?  How did this help you?
+How much time did you spend on problem analysis?
+
+Some of the analysis work we did included drawing out what the class structure
+would look like. It revealed a tremendous amount of how we would have different
+objects in the game interact, and plan out some of the methods we knew we would
+have to write. We spent about 1-2 hours just planning out what we would do, and
+I think it really helped us out in the long run. We were able to constantly
+refer back to our sketches and plan layouts which would keep us on task and
+remind us of our objectives.
+
+2. Design
+---------
+
+Explain the design you developed to use and why. What are the major 
+components? What connects to what? How much time did you spend on design?
+Make sure to clearly show how your design uses the MVC model by
+separating the UI "view" code from the back-end game "model".
+
+We drew out our design before we implemented it. We decided that there would
+not be any real 'visual' graphics to our game so we would have to make the
+different logs (inventory, items on ground, hallways) the primary focus. We
+Made three different panels, North, Center, and South. The north held mostly
+static text and the menu bar. The north really didn't have much that changed
+as the game went on. The center was split using a grid layout, with each panel
+taking up one column of the grid. The center would be changing alot, and we 
+also knew that it could potentially hold infinite information. We made these
+columns JScrollPanes so that it could be condensed as much as possible. The
+South was split in half, with the game log taking up the center, and another
+panel holding the health and experience would be on the west side. We spent 
+about an hour just on design
+
+The UI is very seperate from the back-end game model, because most things on
+the screen are only strings or ints. All the objects which hold the actual
+data are modified exclusively through the model. The UI is sent the important
+things we actually want to display by the model.
+
+3. Implementation and Testing
+-------------------
+
+Describe your implementation efforts here; this is the coding and testing.
+
+What did you put into code first?
+How did you test it?
+How well does the solution work? 
+Does it completely solve the problem?
+Is anything missing?
+How could you do it differently?
+How could you improve it?
+
+How much total time would you estimate you worked on the project? 
+If you had to do this again, what would you do differently?
+
+First we made basic getters and setters for each class. We knew what objects
+would hold certain data, so that was easy to implement. Then we went and made
+the graph with the vertexes and edges. It was not easy to test because we had
+not yet had a GUI, but with some println()s we were able to get a general idea
+that our code had worked. When we actually had some GUI working, it became 
+easier to test our code as we went along. We were able to fix bugs through
+actually testing it in the game, and print any information to the console that
+we felt we needed to check. In total, we probably spent over 20 hours on this
+project.
+
+The solution works fairly well. We ran into some issues with the traps that we
+fixed. Nothing is actually missing from the game, although it would have been
+fun to have more time to implement more fun things. For example, we put a 
+random number generator to give descriptions to each room. It would have been
+nice to make a sort of mad-lib which would generate random adjectives and then
+modify the descriptions so that each room truely felt unique. Thats how we 
+would have improved it. If done differently, we probably would have made more
+objects to interact with, or at least simply our low-level code so that the
+model and GUI didn't have as much work everytime the user changed something.
+
+4. Development Process
+-----------------------------
+
+Describe your development process here; this is the overall process.
+
+How much problem analysis did you do before your initial coding effort?
+How much design work and thought did you do before your initial coding effort?
+How many times did you have to go back to assess the problem?
+
+What did you learn about software development?
+
+In total, problem analysis and design work probably took up 5 hours of our
+total 20+ hours. We had explicitly analyzed and designed for about 1 or 2
+hours each, but much of the problem analysis and design was done throughout
+our coding process as we came upon a problem that we felt required additional
+time to sit down and think it through. About 3-6 times, we realized that we
+had underestimated something as a problem and had to go back to the drawing
+board (Quite literally, we did a huge amount of drawing). 
+
+We learned that software development is a process, and typically if you do most
+of your planning and designing beforehand, it will shorten your implementing
+process. Not only that, but it will allow your code to be much shorter because
+you laid out what you will do in pseudocode.

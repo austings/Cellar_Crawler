@@ -1,0 +1,48 @@
+Feedback on the tictactoe-Java Assignment: 
+
+Course: 	CS for AP
+
+My name is: 	Austin Sierra, Tyler Shank
+
+My account is: 	ags1098, trs5953
+
+What did you learn by doing this assignment?
+
+We learned about different class interaction, and how that has been taken to a
+new level with MVC. The success of a code is based on how well developed it has
+been keeping data exchange simple and necessary.
+
+
+What was easy about this assignment?
+
+Making the GUI and the Model were not hard at all. Figuring our how they 
+interact with one another was slightly tricky. Once we understood Observable
+and Observer, though, it became pretty easy.
+
+
+What was harder than you originally thought?
+
+Bug testing. There were so many bugs originally we did not even know where
+to begin. We tested as much as we could, but without a GUI, we made majority
+of our code without realized what worked and what did not.
+
+
+What can the instructor do to improve this assignment?
+
+Stress the importance of pre-planning and design. It makes the project so
+much easier.
+
+
+What would you have liked to do in this assignment?
+
+We would have liked if there were more elements to tell a story in the game.
+Of course, its not really related to computer science. However, designing a 
+story not only helps us create a solution and solve this problem, but it makes
+the solution more interesting as a program.
+
+
+What other issues would you like to discuss?
+
+If we could know exactly what it is you want us to output to the user, that
+would make following the rubric much easier. Much of what we put in the game
+log was just us speculating what the user should and should not know.
